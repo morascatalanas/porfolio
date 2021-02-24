@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  position: relative;
+}
+
+.box {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(20deg, #87e1c7 0%, #489fce 100%);
+}
+
+.waves {
+  position: absolute;
+  width: 100vw;
+}
+
+section, .info, .contact {
+  padding: 10vh;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+  color: #e9ebed;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 7vw;
+  margin: 3vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+p {
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+a {
+  color: #e9ebed;
+  text-decoration: none;
+  font-size: 2vw;
+  font-weight: bolder;
+  text-shadow: 4px 3px 0 #489fce;
+}
+
+.apart {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.size {
+  width: 80vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.perfil {
+  margin: 5vw;
+  position: relative;
+  height: 30vw;
+  border-radius: 1000px;
+  border: 20px double rgba(233, 235, 237, 0.34);
+}
+
+.draw {
+  height: 30vw;
+}
+
+.contact {
+  background: rgba(233, 235, 237, 0.34);
+  height: 30vw;
+  padding: 2vh;
+  width: 23vw;
+  border-radius: 30px;
+  border-bottom: 5px solid #489fce;
+  border-right: 5px solid #489fce;
+  -webkit-box-shadow: 10px 10px 21px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contact:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.contact-two {
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #e9ebed;
+  height: 3vw;
+  color: #489fce;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.icons8 {
+  height: 2vh;
+}
+
+.img-card {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.carousel-control-next {
+  right: -10vw;
+}
+
+.carousel-control-prev {
+  left: -10vw;
+}
+
+/*# sourceMappingURL=style.css.map */
